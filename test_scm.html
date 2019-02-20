@@ -1,14 +1,16 @@
-<html>
+<!DOCTYPE html> 
+<html> 
+  <head> 
+    <meta charset="utf-8" /> 
+    <title>BiwaScheme example</title>
+  </head>
   <body>
-    <h1>Script:</h1>
-    <hr/>
-    <pre>
+    <div id="bs-console">
+    </div>
     <script src="https://www.biwascheme.org/release/biwascheme.js">
-      (display "hello, world!")
-      (display (+ 1 1))
+      (print "Hello, world!")
+      (print (current-date))
+      (console-log "ok.")
     </script>
-    </pre>
-    1
-    <hr/>
   </body>
 </html>
